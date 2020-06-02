@@ -37,7 +37,7 @@
 }
 
 .main-menu > li > a:hover {
-  color: #1290a4;
+  color: #eb0014;
 }
 
 @media (min-width: 992px) {
@@ -95,7 +95,7 @@
 
 @media (min-width: 992px) {
   .main-menu .menu-dropdown .single-item:hover a h3 {
-    color: #1290a4;
+    color: #e9003a;
   }
 }
 
@@ -165,7 +165,7 @@
   width: 137px;
   height: 40px;
   border-radius: 3px;
-  background-color: #1290a4;
+  background-color: #dd0025;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -482,7 +482,7 @@
   font-weight: 700;
   letter-spacing: -1.12px;
   border-radius: 3px;
-  background-color: #1290a4;
+  background-color: #c5000a;
   width: 100%;
   margin-top: 10px;
   height: 50px;
@@ -507,7 +507,7 @@
 }
 
 .hero-form .form-text a {
-  color: #1290a4;
+  color: #e0001e;
 }
 
 .hero-form .form-text a:hover {
@@ -691,7 +691,7 @@
   min-width: 0;
   padding-left: 0;
   height: auto;
-  color: #1290a4;
+  color: #bd0303;
 }
 
 .feature-card .card-content .btn-link i {
@@ -950,7 +950,7 @@
   font-weight: 700;
   letter-spacing: -0.4px;
   line-height: 28px;
-  color: #1290a4;
+  color: #e90000;
 }
 
 .content-link a i {
@@ -964,7 +964,7 @@
 }
 
 .content-link a:hover i {
-  color: #1290a4;
+  color: #ce0000;
   margin-left: 20px;
 }
 
@@ -1001,7 +1001,7 @@
 .content-list li span i {
   font-size: inherit;
   font-weight: 900;
-  color: #1290a4;
+  color: #cf0011;
   position: relative;
   top: 5px;
 }
@@ -1183,7 +1183,7 @@
   position: absolute;
   top: 30px;
   right: 45px;
-  background-color: #f46f7c;
+  background-color: #f75a69;
   border-radius: 500px;
   height: 26px;
   color: #fff;
@@ -1241,7 +1241,7 @@
 }
 
 .pricing-card .card-btn .btn--primary:hover {
-  background-color: #0d41e9;
+  background-color: #e90d2a;
 }
 
 .pricing-card.active {
@@ -1396,7 +1396,7 @@
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background-color: #1290a4;
+  background-color: #d30012;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -1414,7 +1414,7 @@
 [class*='btn--toggle-'] input:checked + .slider:before {
   -webkit-transform: translateX(21px) translateY(-50%);
           transform: translateX(21px) translateY(-50%);
-  background-color: #1290a4;
+  background-color: #c70101;
 }
 
 [class*='btn--toggle-'] .slider.round {
@@ -1592,7 +1592,7 @@
   font-weight: 700;
   letter-spacing: -1.12px;
   border-radius: 3px;
-  background-color: #1290a4;
+  background-color: #cf001c;
   width: 100%;
   margin-top: 10px;
   height: 50px;

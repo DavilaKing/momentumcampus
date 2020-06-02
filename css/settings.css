@@ -213,7 +213,7 @@ input[type="number"] {
 }
 
 .btn--primary {
-  background-color: #1290a4;
+  background-color: #bb0000;
   color: #FFF;
 }
 
@@ -224,12 +224,12 @@ input[type="number"] {
 
 .btn-outlined--primary {
   background-color: transparent;
-  color: #1290a4;
-  border: 2px solid #1290a4;
+  color: #ca0000;
+  border: 2px solid #c50000;
 }
 
 .btn-outlined--primary:hover {
-  background-color: #1290a4;
+  background-color: #c9001b;
   color: #fff;
 }
 
@@ -256,12 +256,12 @@ input[type="number"] {
 }
 
 .btn--white {
-  color: #1290a4;
+  color: #c40303;
   background-color: #ffffff;
 }
 
 .btn--white:hover {
-  color: #1290a4;
+  color: #c00101;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
