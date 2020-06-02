@@ -15,41 +15,52 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="./css/settings.css">
   <link rel="stylesheet" href="./css/style.css">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
 </head>
 
 <body>
-<div class="site-wrapper">
-    <header class="site-header">
-        <div class="container">
-            <div class="row justify-content-center align-items-center position-relative">
-                <div class="col-sm-3 col-6 col-lg-2 col-xl-2 order-lg-1">
-                    <div class="brand">
-                        <a href=""><img src="image/main-logo.png" alt="" /></a>
-                    </div>
-                </div>
-                
-                <!-- Menu Block -->
-               <div class="col-sm-1 col-6 col-lg-7 col-xl-6 offset-xl-1 position-static order-lg-2">
-                    <div class="main-navigation">
-                       <ul class="main-menu">
-                            
-                            <li class="menu-item "><a href="#features">Features</a></li>
-                    
-                            <li class="menu-item"><a href="#">Services</a></li>
-                    
-                            <li class="menu-item"><a href="#pricing">Pricing</a></li>
-                    
-                            <li class="menu-item"><a href="#contact">Contact</a></li> 
 
-                            </ul> 
+    <div class="header-area header_area header-transparent">
+        <div class="main-header">
+           <div class="header-bottom  header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-1 col-md-1">
+                            <div class="logo">
+                              <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8 col-md-8">
+                            <!-- Main-menu -->
+                            <div class="main-menu f-right d-none d-lg-block">
+                                
+                            </div>
+                        </div>             
+                        <div class="col-xl-2 col-lg-3 col-md-3">
+                            <div class="header-right-btn f-right d-none d-lg-block">
+                                <a href="#" class="btn header-btn">Sign In</a>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
                     </div>
-                    <div class="mobile-menu"></div>
                 </div>
-            </div>
+           </div>
         </div>
-    </header>
+   </div>
+    <!-- Header End -->
+
+
+
+<div class="site-wrapper">
+    
   <!-- Hero Area  -->
-  <section class="hero-area" style="background-image: url('./image/unnamed.jpg'); background-attachment: ; background-size: cover; background-repeat: no-repeat;">
+  <section class="hero-area" style="background-image: url('./image/unnamed.jpg'); background-size: cover; background-repeat: no-repeat;">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 order-lg-2">
@@ -307,154 +318,10 @@
         
     </section>
 
-
-    <!-- Pricing section -->
-    <section class="pricing-section">
-        <div class="shape">
-            <img src="./image/landing-2-shape.svg" alt="">
-        </div>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center">
-                        <h2>Mark your next step</h2>
-                        <p>We designed and tested prototypes that helped identify pain points in the account creation process. Together, we shaped the new standard.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="btn--toggle-pricing" data-tab-target="#pricing-tab-7">
-                        <p>Monthly</p>
-                        <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>
-                        </label>
-                        <p>Yearly</p>
-                    </div>
-                </div>
-
-            </div>
-            <div class="custom-tab-wrapper monthly" id="pricing-tab-7">
-                <div class="row mb-d-30">
-                    <div class="col-lg-4">
-                        <div class="pricing-card">
-
-                            <div class="card-head">
-                                <h6>Basic (Program A)</h6>
-                                <h2><span class="small-title">RM</span><span class="big-txt" data-monthly='19'
-                                    data-yearly='14'>19</span><span class="month" data-monthly='/month' data-yearly='/year'>/month</span></h2>
-                                <p>Good for small business launching their products less then once a year</p>
-                            </div>
-
-                            <div class="card-content">
-                             <!--   <ul class="pricing-list">
-                                    <li><span><i class="icon icon-check-2"></i></span>Unlimited Blocks</li>
-                                    <li><span><i class="icon icon-check-2"></i></span>5GB Clould Storages</li>
-                                    <li class="disable-opt"><span><i class="icon icon-check-2"></i></span>Custom Domain
-                                        Names</li>
-                                    <li class="disable-opt"><span><i class="icon icon-check-2"></i></span>Unlimited
-                                        Emails
-                                    </li>
-                                </ul> -->
-                                <div class="card-btn">
-                                    <a href="#" class="btn btn--primary">Let's Start</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="pricing-card active">
-
-                            <div class="card-head">
-                                <h6>Pro (Program B)</h6>
-                                <span class="card-badge">Popular</span>
-                                <h2><span class="small-title">RM</span><span class="big-txt" data-monthly='29'
-                                    data-yearly='25'>29</span><span class="month" data-monthly='/month' data-yearly='/year'>/month</span></h2>
-                                <p>Good for small business launching their products less then once a year</p>
-                            </div>
-
-
-                            <div class="card-content">
-                              <!--  <ul class="pricing-list">
-                                    <li><span><i class="icon icon-check-2"></i></span>Unlimited Blocks</li>
-                                    <li><span><i class="icon icon-check-2"></i></span>5GB Clould Storages</li>
-                                    <li><span><i class="icon icon-check-2"></i></span>Custom Domain Names</li>
-                                    <li class="disable-opt"><span><i class="icon icon-check-2"></i></span>Unlimited
-                                        Emails
-                                    </li>
-                                </ul> -->
-                                <div class="card-btn">
-                                    <a href="#" class="btn btn--primary">Let's Start</a>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-lg-4">
-                        <div class="pricing-card">
-
-                            <div class="card-head">
-                                <h6>Exclusive (Program C)</h6>
-                                <h2><span class="small-title">RM</span><span class="big-txt" data-monthly='59'
-                                    data-yearly='49'>59</span><span class="month" data-monthly='/month' data-yearly='/year'>/month</span></h2>
-                                <p>Good for small business launching their products less then once a year</p>
-                            </div>
-
-
-                            <div class="card-content">
-                          <!--<ul class="pricing-list">
-                                    <li><span><i class="icon icon-check-2"></i></span>Unlimited Blocks</li>
-                                    <li><span><i class="icon icon-check-2"></i></span>5GB Clould Storages</li>
-                                    <li><span><i class="icon icon-check-2"></i></span>Custom Domain Names</li>
-                                    <li><span><i class="icon icon-check-2"></i></span>Unlimited Emails</li>
-                                </ul> -->
-                                <div class="card-btn">
-                                    <a href="#" class="btn btn--primary">Let's Start</a>
-                                </div>
-                                <!-- <p>No credit card required</p> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                     <!--   <div class="pricing-extra-info">
-                            <p><span>Still confused?</span><a href="#">Check our full feature list</a></p>
-                        </div> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 <!-- Footer Section 06 -->
 <div class="footer-section">
     <div class="container">
-        <div class="footer-newsletter-section">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-xl-8">
-                    <div class="footer-newsletter-content">
-                        <h2>Join our rich newsletter now</h2>
-                        <p>We designed and tested prototypes that helped identify pain points in the account creation process. Together, we shaped the new standard.</p>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-xl-6">
-                    <div class="footer-newsletter-form">
-                      <form action="">
-                            <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Enter your email address">
-                              <button class="submit-btn">Subscribe</button>
-                            </div>
-                            <p class="form-text"><i class="icon icon-lock"></i>Your data is protected. We never spam in your inbox</p>
-                      </form>
-                    </div>
-                </div>
-            </div>
-          </div>
+        
 
           <div class="row margin-decrese">
             <div class="col-xl-4 col-lg-5 col-margin">
@@ -468,22 +335,22 @@
                 <ul class="footer-social-list">
                     <li>
                       <a href="">
-                        <i class="icon icon-logo-fb-simple"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
                       </a>
                     </li>
                     <li>
                         <a href="">
-                          <i class="icon icon-logo-twitter"></i>
+                          <i class="fa fa-youtube" aria-hidden="true"></i>
                         </a>
                       </li>
                       <li>
                           <a href="">
-                            <i class="icon icon-check-2"></i>
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
                           </a>
                         </li>
                         <li>
                             <a href="">
-                              <i class="icon icon-google"></i>
+                              <i class="fab fa-blogger    "></i>
                             </a>
                           </li>
                   </ul>
